@@ -9,5 +9,5 @@ The project is written in Python 3.10, and all experiments are performed on an U
 ## Reproducibility  
 The results can be reproduced using the following `GTCM_5fold.py` script, and the following `GTCM_train_predict.py` script is used to train the GTCM model n times and generate a ranked list of predicted driver genes.  
 ## Preprocessing your own data  
-See [preprocess_data](#preprocess_data) to learn how to process your own data and prepare it for training GTCM.  
+See [preprocess_data](preprocess_data) to learn how to process your own data and prepare it for training GTCM.  
 * In our study, we followed the data preprocessing steps described in [EMOGI](https://github.com/schulter/EMOGI), and the data preprocessing code was derived from EMOGI. We also referred to the preprocessing steps for gene relationship networks in [MODIG](https://github.com/zjupgx/modig.git) and [MNGCL](https://github.com/weiba/MNGCL.git), and the positive and negative sample division processing steps in [HGDC](https://github.com/NWPU-903PR/HGDC.git).
